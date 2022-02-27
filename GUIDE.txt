@@ -1,0 +1,38 @@
+PLEASE GO THROUGH THE GUIDELINES IF YOU ARE A NEW USER 
+===========================================================
+TO START USING THE PROGRAM :-                                                         
+===========================================================
+1. Install python
+
+2. Install MySQL
+
+3. Install  mysql connector for python 
+ (pip install mysql-connector-python / or install during installing MySQL)
+
+4. Please install all the needed PYTHON modules and packages needed to
+    run the program. (List provided below)
+
+5. Make shortcut for the main.py file and save it with the app name of
+ your choice
+
+6. You can Change the icon of the shortcut as you desire.
+===========================================================
+LIST OF MODULES / PACKAGES NEEDED :-
+===========================================================
+1. mysql.connector
+2. tabulate
+3. time
+4. os
+5. pafy
+6. vlc
+7. tkinter
+8. datetime
+9. subprocess
+10. youtube_search
+
+THESE MODULES/PACKAGES WILL BE INSTALLED AUTOMATICALLY
+===========================================================
+WHEN NEW
+===========================================================
+ 1. text in new=0,old=1.txt should be empty
+2. server details empty
