@@ -29,7 +29,8 @@ db_cursor.execute('''CREATE TABLE IF NOT EXISTS playlist(id INT NOT NULL PRIMARY
 name VARCHAR(45), user_id INT NOT NULL, FOREIGN KEY(user_id) REFERENCES user_credits(id))''')
 
 db_cursor.execute('''CREATE TABLE IF NOT EXISTS song(id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-name VARCHAR(100),artist VARCHAR(45), url VARCHAR(45),location VARCHAR(300),duration VARCHAR(200), playlist_id INT NOT NULL, FOREIGN KEY(playlist_id) REFERENCES playlist(id))''')
+name VARCHAR(100),artist VARCHAR(45), url VARCHAR(45),location VARCHAR(300),duration VARCHAR(200),
+playlist_id INT NOT NULL, FOREIGN KEY(playlist_id) REFERENCES playlist(id))''')
 
 db_cursor.execute('''CREATE TABLE IF NOT EXISTS notes(id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 date DATE, title VARCHAR(100),user_id INT NOT NULL, FOREIGN KEY(user_id) REFERENCES user_credits(id))''')
