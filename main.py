@@ -1,5 +1,4 @@
 import os
-import pwinput
 
 os.system('cls')
 print_setup_page = ('''
@@ -28,6 +27,7 @@ else:
     os.system('cls')
     print(print_setup_page)
     print("\nPLEASE ENTER THE DETAILS OF YOUR MySQL server to be used :\n")
+    import pwinput
     a = str(input("Enter name of the host : "))
     b = str(input("Enter name of the user : "))
     c = pwinput.pwinput(prompt="Enter the password : ", mask="●")
